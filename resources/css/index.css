@@ -1,0 +1,17 @@
+body{
+    background-color: #C2EEFF;
+    margin: 30 30 50 50;
+}
+
+h1{
+    font-size: 30px;
+    color: White;
+    background-color: black;
+    display: inline-block;
+}
+
+p{
+    font-size: 18px;
+}
+
+/* ここから追記(黑川) */

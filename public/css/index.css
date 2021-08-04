@@ -1,0 +1,109 @@
+body{
+    background-color: #C2EEFF;
+    margin: 30 30 50 50;
+}
+
+h1{
+    font-size: 30px;
+    color: White;
+    background-color: black;
+    display: inline-block;
+}
+
+p{
+    font-size: 18px;
+}
+
+/* ここから追記(黑川) */
+
+.big{
+    display: inline-block;
+}
+
+.back{
+    display: inline-block;
+}
+
+table , td, th {
+	border: 1px solid #595959;
+	border-collapse: collapse;
+	background:#FFF;
+
+}
+td, th {
+	padding: 3px;
+width: auto;
+	height: 30px;
+}
+th {
+	background: #9370db;
+}
+.even {
+	background: #fbf8f0;
+}
+.odd {
+	background: #fefcf9;
+}
+
+.btn2,
+a.btn2,
+button.btn2 {
+  
+  font-weight: 2000;
+  line-height: 1;
+  padding: 0.1rem 0.1rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  margin-bottom: 10px;
+}
+
+a.btn-radius-solid2 {
+  border: 1px solid #ccc;
+  background: #f1e767;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fdfbfb), to(#ebedee));
+  background: -webkit-linear-gradient(top, #fdfbfb 0%, #ebedee 100%);
+  background: linear-gradient(to bottom, #fdfbfb 0%, #ebedee 100%);
+  -webkit-box-shadow: inset 1px 1px 1px #fff;
+  box-shadow: inset 1px 1px 1px #fff;
+}
+
+a.btn-radius-solid2:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#fdfbfb), to(#ebedee));
+  background: -webkit-linear-gradient(bottom, #fdfbfb 0%, #ebedee 100%);
+  background: linear-gradient(to top, #fdfbfb 0%, #ebedee 100%);
+}
+
+a.btn2-border {
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+  -webkit-box-shadow: 4px 4px 0 #000;
+  box-shadow: 4px 4px 0 #000;
+  margin-right : 4px;
+}
+
+a.btn2-border:hover {
+  -webkit-box-shadow: 0px 0px 0 #000;
+  box-shadow: 0px 0px 0 #000;
+  margin-right : 0px;
+  margin-left : 4px;
+}
+
+.saku{
+    text-align: center
+}
+
+.au{
+    text-align: center
+}
